@@ -1,0 +1,490 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #009bd3;
+}
+
+header {
+    background-color: #187e01;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bio {
+    max-width: 600px;
+}
+
+.publications, .contact {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #006de1;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #00a5ca;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #0077ff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #00c3ff;
+    text-decoration: none;
+}
+
+/* Justificacion */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #00a2c6;
+}
+
+header {
+    background-color: #125b02;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.bio {
+    max-width: 600px;
+}
+
+.bio h2 {
+    color: #4CAF50;
+}
+
+.bio p {
+    text-align: justify; /* Justificación del texto */
+    line-height: 1.6;
+}
+
+.publications, .contact {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.publications h2, .contact h2 {
+    color: #4CAF50;
+}
+
+.publications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.publications ul li {
+    margin-bottom: 10px;
+}
+
+.contact p {
+    text-align: justify; /* Justificación del texto */
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*Justificacion*/
+
+/*diseño de botones*/
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bio {
+    max-width: 600px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.publications, .contact {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* justificacion */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #187e01;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.bio {
+    max-width: 600px;
+}
+
+.bio h2 {
+    color: #4CAF50;
+}
+
+.bio p {
+    text-align: justify; /* Justificación del texto */
+    line-height: 1.6;
+}
+
+.publications, .contact {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.publications h2, .contact h2 {
+    color: #4CAF50;
+}
+
+.publications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.publications ul li {
+    margin-bottom: 10px;
+}
+
+.contact p {
+    text-align: justify; /* Justificación del texto */
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*imagen*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Main Content Styles */
+main {
+    margin: 20px 0;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Image Styles */
+.right-img {
+    float: right;
+    margin: 0 0 20px 20px;
+    width: 300px; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Opcional: añade bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcional: añade sombra */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Clearfix for floating elements */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.navbar {
+    background-color: #2942e1; /* Cambia este valor por el color que prefieras */
+    padding: 1em;
+}
+
+/* Estilo para los elementos de la lista en la barra de navegación */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Estilo para los enlaces en la barra de navegación */
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.navbar a:hover {
+    color: #f1c40f; /* Cambia este valor para el color cuando el enlace está en hover */
+}
+
